@@ -1,0 +1,132 @@
+.admin-name {
+    font-weight: bolder;
+    font-size: 35px;
+    color: #c9447e;
+    margin-left: 40px;
+}
+
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+
+.h-custom {
+    height: calc(100% - 73px);
+}
+
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
+
+.student {
+    width: 50% !important;
+    text-align: center !important;
+}
+
+.input-data {
+    margin-top: 40px;
+    height: 40px !important;
+}
+
+.logo-img {
+    width: 100px;
+}
+
+
+.logo-section {
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    height: 50px !important;
+    background-color: #C9447E !important;
+    border-color: #C9447E !important;
+    margin: 0;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    width: 100% !important;
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .logo-img {
+        display: none;
+    }
+
+    .admin-name {
+        display: none;
+    }
+
+    .admin-name-res {
+        display: block !important;
+    }
+
+}
+
+.admin-name-res {
+    font-weight: bolder;
+    font-size: 35px;
+    color: #c9447e;
+    margin-left: 10px;
+    display: none;
+    margin-top: 30px;
+
+
+}
+
+.logo-img-res {
+    width: 100px;
+}
+
+
+.selector-btn:not(:disabled):not(.disabled).active, .selector-btn:not(:disabled):not(.disabled):active, .show > .selector-btn.dropdown-toggle {
+    background-color: #c9447e;
+    color: white;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+box-shadow: none;
+}
+
+.show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn.active, .btn.active:focus, .btn.focus, .btn:active, .btn:active:focus, .btn:focus, .btn:hover {
+    box-shadow: none;
+}
+
+.btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+
+.btn.focus, .btn:focus {
+    box-shadow: none;
+}
+.selection-btn{
+    border: 1px solid #c9447e !important;
+    font-size: 18px!important;
+}
+
+.guest-title{
+    font-size: 18px;
+    color: #C9447E;
+    font-weight: bold;
+
+}
+.center-title{
+    text-align: center;
+}
+.link-deco{
+    text-decoration: none !important;
+}

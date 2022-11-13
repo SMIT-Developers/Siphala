@@ -1,0 +1,38 @@
+.subject-tab {
+    font-size: 18px !important;
+    border: 1px solid #C9447E !important;
+}
+
+.tab-btn-item {
+    /*font-size: 10px !important;*/
+    /*margin-left: 360px !important;*/
+}
+
+.body-content {
+    width: 100%;
+    /*margin-left: 300px;*/
+}
+.envi-dis-res{
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .subject-tab {
+        font-size: 15px!important;
+        padding: 10px!important;
+
+    }
+    .envi-dis{
+        display: none !important;
+    }
+
+    .display-blo{
+        display: block;
+        max-width: 64% !important;
+    }
+
+    .envi-dis-res{
+        display: block;
+    }
+
+}

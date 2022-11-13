@@ -1,0 +1,121 @@
+.showStudents{
+    flex: 4;
+}
+
+.stContainer{
+  
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(236, 232, 237);
+    height: 580px;
+    
+  }
+  
+  /* .userAddButton {
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+  } */
+
+
+
+  
+  .parentContainer {
+    display: flex;
+    margin-top: 20px;
+    box-shadow: black;
+    
+  }
+  
+  .stShow {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 2px 2px 15px -10px rgba(0, 0, 3, 0.75);
+    box-shadow: 2px 2px 15px -10px rgba(0, 0, 3, 0.75);
+  }
+ 
+  
+  .stShowTop {
+    display: flex;
+    align-items: center;
+  }
+  
+  .stShowImg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .stShowTopTitle {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    
+  }
+  
+  .stShowUsername {
+    margin: auto;
+    font-weight: 600;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color:#9e02b8;
+    
+  }
+
+  
+  .stShowBottom{
+      margin-top: 20px;
+  }
+  
+  .stShowTitle {
+    font-size: 25px;
+    font-weight: 600;
+    color:#d80afb;
+    
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .stShowInfo{
+      display: flex;
+      align-items: center;
+      margin: 20px 0px;
+      color: #7b0290;
+  }
+  
+  .stShowIcon{
+      font-size: 18px !important;
+      color: black;
+      
+  }
+  
+  .stShowInfoTitle{
+      margin-left: 10px;
+      font-size: 18px;
+  }
+
+  .sform{
+    width: 600px;
+    margin: auto;
+    
+  }
+
+  .formItems{
+
+    align-items: center;
+    margin: auto;
+  }
+
+
+  .stTitle{
+
+    font-family: cursive;
+    color: #b81760;
+  }

@@ -1,0 +1,15 @@
+.get-start-btn{
+    background-color: #cd6f96  !important;
+    border: none;
+    width: 150px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    border-radius: 12px;
+    text-align: center;
+
+}
+.get-start-btn:hover{
+    background-color: #C9447E !important;
+}

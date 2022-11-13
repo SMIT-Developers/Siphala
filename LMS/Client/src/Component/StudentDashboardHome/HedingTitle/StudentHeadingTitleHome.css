@@ -1,0 +1,10 @@
+.hed-title{
+    font-size: 60px;
+    color: #C9447E;
+    font-weight: bold;
+}
+@media screen and (max-width: 991px) {
+    .hed-title{
+        font-size: 18px;
+    }
+}

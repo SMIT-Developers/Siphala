@@ -1,0 +1,25 @@
+.description-main{
+
+}
+.heading-name{
+    font-size: 5rem;
+    font-weight: bold;
+   
+    color: #C9447E;
+}
+
+.dis-par{
+    font-size: 30px;
+    
+
+}
+@media screen and (max-width: 991px) {
+    .heading-name{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .dis-par{
+        font-size: 20px;
+
+    }
+}

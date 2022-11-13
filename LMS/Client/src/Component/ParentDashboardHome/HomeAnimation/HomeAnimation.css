@@ -1,0 +1,15 @@
+.animation-div {
+    text-align: center;
+
+}
+.parent-animation{
+    width: 100% !important;
+    border-radius: 5px;
+
+}
+.carousel-control-next-icon:after{
+    content: none;
+}
+.carousel-control-prev-icon:after{
+    content: none;
+}

@@ -1,0 +1,112 @@
+.activity-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.activity {
+    position: relative;
+    padding: 30px;
+    width: 70%;
+    height: 80%;
+    margin-top: 5%;
+    margin-left: 15%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+.input-jira {
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    font-size: 40px !important;
+    text-align: center;
+    vertical-align: text-bottom;
+    text-justify: auto;
+    padding-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.first-puzzle {
+    margin-top: 10px;
+    display: inline-flex;
+    margin-right: 50px;
+}
+
+.disabled-color {
+    color: gray;
+}
+
+.sub-input {
+    margin-top: 35px;
+}
+
+.activity-button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: #cd6f96;
+    color: white;
+    margin-top: 40px;
+    border: none;
+    margin-right: 20px;
+    font-weight: bold;
+
+}
+
+.activity-button:hover {
+    background-color: #C9447E;
+}
+
+.maths-activity {
+    margin: 80px;
+    text-align: center;
+}
+
+.maths-activity-question-section {
+    text-align: center;
+}
+
+.maths-activity-question {
+    padding: 30px;
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+    display: inline;
+    color: red;
+    font-size: 100px;
+}
+
+.maths-activity-answer {
+    width: 150px;
+    height: 150px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.maths-activity-answer-selected {
+    background-color: darkmagenta;
+}
+
+.maths-activity-next-button {
+    margin-left: calc(50% - 86px);
+}
+
+.next-button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 2px !important;
+    border: none;
+    margin-right: 0px;
+    font-weight: bold;
+}

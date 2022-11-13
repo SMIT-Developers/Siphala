@@ -1,0 +1,87 @@
+.topbar {
+  width: 100%;
+  height: 150px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* .logo{
+  background-image: url('../../pro_logo3.png');
+} */
+
+.topbarWrapper {
+  height: 100%;
+  padding: 0px 5px;
+  display: flex;
+  align-items: right;
+  /* justify-content: space-between; */
+}
+
+.word {
+  font-weight: bold;
+  font-size: 40px;
+  color: rgb(205, 34, 145);
+  cursor: pointer;
+  font-family: cursive;
+}
+
+.topRight{
+    /* display:flex; */
+    align-items: right;
+    padding: 5px 10px;
+ 
+}
+
+.topbarIconContainer {
+  position: relative;
+  cursor: pointer;
+  margin-right: 10px;
+  color: #555;
+}
+
+.topIconBadge{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.topAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+.logo{
+
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+ 
+}
+
+
+.d-flex justify-content-end{
+  height: 50px;
+}
+
+.text{
+
+color:#9702b0;
+font-family: cursive;
+font-size: 50px;
+
+}

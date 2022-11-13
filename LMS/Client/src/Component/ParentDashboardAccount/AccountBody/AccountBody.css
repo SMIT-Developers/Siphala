@@ -1,0 +1,19 @@
+.account-tab{
+    /*width: 40% !important;*/
+}
+.responsive-button-set{
+    display: none !important;
+}
+
+@media screen and (max-width: 1413px) {
+    .responsive-button-set{
+        display: inline-flex !important;
+    }
+    .main-grid-account{
+        display: none !important;
+    }
+    .height-set{
+        height: auto !important;
+    }
+
+}

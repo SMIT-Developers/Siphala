@@ -1,0 +1,45 @@
+.nav-bar-logo{
+    width: 60px;
+    margin-right:20px ;
+
+}
+.login-btn-nav-bar{
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 991px){
+    .login-btn-nav-bar{
+        position: relative;
+    }
+}
+.loin-btn-mar{
+    margin-right: 20px !important;
+}
+.btn-color-c{
+    background-color: #C9447E !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+.btn-color-l{
+    border-color: white !important;
+    color: white !important;
+    font-size: 20px !important;
+}
+.bg-color{
+    background-color: #cd6f96 !important;
+
+}
+.font-color-ch{
+    color: white !important;
+    font-weight: bold !important;
+    font-size: 20px !important;
+
+}
+.link-ch{
+    text-decoration: none !important;
+}
+.inline-gride{
+    display: grid;
+}

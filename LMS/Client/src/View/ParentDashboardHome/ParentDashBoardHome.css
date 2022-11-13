@@ -1,0 +1,42 @@
+.nav-bar-div {
+    z-index: -1;
+    height: 0;
+}
+
+.heading-bar-div {
+    z-index: 1;
+    margin-left: 200px;
+    /*width: 100%;*/
+}
+@media screen and (max-width: 991px) {
+    .heading-bar-div{
+        margin-left: 0;
+    }
+    .body-section{
+        margin-left: 72px !important;
+        width: 90%!important;
+    }
+
+}
+
+.body-section {
+    margin-left: 330px;
+    width: 80% !important;
+    background-color: #282c34;
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 85vh;
+
+}
+
+.home-title {
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.home-animation-div {
+    width: 70%;
+    margin: auto;
+
+}
